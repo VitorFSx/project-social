@@ -57,7 +57,6 @@ section#redes-sociais img:hover {
 }
 
 section#redes-sociais {
-    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -65,7 +64,6 @@ section#redes-sociais {
 }
 
 section .bthome {
-    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -73,23 +71,20 @@ section .bthome {
 }
 
 section .btgit {
-    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-460%, -200%);
+    transform: translate(-465%, -200%);
 }
 
 section .btinsta {
-    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate( -460%, 100%);
+    transform: translate( -465%, 100%);
 }
 
 section .btyout {
-    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -97,7 +92,6 @@ section .btyout {
 }
 
 section .bttw {
-    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -105,7 +99,6 @@ section .bttw {
 }
 
 section .btface {
-    display: flex;
     position: absolute;
     top: 50%;
     left: 50%;
