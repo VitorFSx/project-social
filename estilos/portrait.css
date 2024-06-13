@@ -5,18 +5,18 @@ section#telefone {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 270px;
-    height: 460px;
+    width: 288px;
+    height: 490px;
     background: url("../imagens/frame-iphone-pq.png") no-repeat;
     background-size: cover;
 }
 
 iframe#tela {
     position: relative;
-    top: 60px;
-    left: 20px;
-    width: 232px;
-    height: 345px;
+    top: 63px;
+    left: 21px;
+    width: 248px;
+    height: 369px;
 }
 
 section#redes-sociais img {
@@ -28,31 +28,37 @@ section#redes-sociais img {
 
 section#redes-sociais img:hover {
     border: 2px solid rgba(255, 255, 255, 0.644);
-    width: 42px;
+    width: 41px;
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.700);
     transition: 0.1s;
 }
 
+section#redes-sociais {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
 
 section .bthome {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-440%, -50%);
+    transform: translate(-460%, -50%);
 }
 
 section .btgit {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-445%, -200%);
+    transform: translate(-460%, -200%);
 }
 
 section .btinsta {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate( -445%, 100%);
+    transform: translate( -460%, 100%);
 }
 
 
@@ -60,19 +66,19 @@ section .btyout {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(345%, -50%);
+    transform: translate(360%, -50%);
 }
 
 section .bttw {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(345%, -200%);
+    transform: translate(360%, -200%);
 }
 
 section .btface {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(345%, 100%);
+    transform: translate(360%, 100%);
 }
